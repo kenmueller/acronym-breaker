@@ -1,0 +1,74 @@
+.root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: #292d3e;
+}
+
+.result {
+	margin: auto 0;
+	padding: 30px;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900;
+	color: white;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	padding: 20px 30px;
+	background: #212842;
+	box-shadow: 0 0 20px 5px #131931;
+}
+
+.acronym {
+	margin-right: auto;
+	font-size: 30px;
+	font-weight: 900;
+	color: white;
+}
+
+.regenerate {
+	height: 50px;
+	margin-right: 16px;
+	padding: 0 16px;
+	font-size: 20px;
+	font-weight: 900;
+	color: white;
+	background: #e43f77;
+	border-radius: 8px;
+	outline: none;
+	transition: background 0.3s, transform 0.3s;
+	
+	&:hover {
+		background: transparentize(white, 0.9);
+	}
+	
+	&:active {
+		transform: translateY(2px);
+	}
+}
+
+.share {
+	height: 50px;
+	padding: 12px;
+	background: #e43f77;
+	border-radius: 8px;
+	outline: none;
+	transition: background 0.3s, transform 0.3s;
+	
+	&:hover {
+		background: transparentize(white, 0.9);
+	}
+	
+	&:active {
+		transform: translateY(2px);
+	}
+}
+
+.shareIcon {
+	height: 100%;
+	color: white;
+	transform: translateX(2px);
+}

@@ -1,0 +1,41 @@
+.root {
+	display: flex;
+	max-width: max-content;
+	background: transparentize(white, 0.9);
+	border-radius: 8px;
+}
+
+.input {
+	padding: 16px;
+	font-size: 16px;
+	color: white;
+	background: transparent;
+	outline: none;
+	
+	&::placeholder {
+		color: transparentize(white, 0.5);
+	}
+}
+
+.button {
+	$margin: 4px;
+	
+	align-self: stretch;
+	margin: $margin $margin $margin 0;
+	padding: 0 16px;
+	font-size: 16px;
+	font-weight: 900;
+	color: white;
+	background: #e43f77;
+	border-radius: 6px;
+	outline: none;
+	transition: background 0.3s, transform 0.3s;
+	
+	&:hover {
+		background: transparentize(white, 0.9);
+	}
+	
+	&:active {
+		transform: translateY(2px);
+	}
+}

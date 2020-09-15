@@ -1,0 +1,20 @@
+.root {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px;
+	background: #212842;
+	box-shadow: 0 0 20px 5px #131931;
+}
+
+.title {
+	text-decoration: none;
+	font-size: 32px;
+	font-weight: 900;
+	color: white;
+	transition: transform 0.3s;
+	
+	&:active {
+		transform: translateY(2px);
+	}
+}

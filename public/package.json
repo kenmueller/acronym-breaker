@@ -1,0 +1,29 @@
+{
+	"name": "public",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build && next export; mv .next ../functions",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.30",
+		"@fortawesome/free-solid-svg-icons": "^5.14.0",
+		"@fortawesome/react-fontawesome": "^0.1.11",
+		"axios": "^0.20.0",
+		"next": "^9.5.3",
+		"react": "^16.13.1",
+		"react-copy-to-clipboard": "^5.0.2",
+		"react-dom": "^16.13.1",
+		"react-toastify": "^6.0.8",
+		"recoil": "0.0.10",
+		"sass": "^1.26.10"
+	},
+	"devDependencies": {
+		"@types/node": "^14.10.1",
+		"@types/react": "^16.9.49",
+		"@types/react-copy-to-clipboard": "^4.3.0",
+		"typescript": "^4.0.2"
+	},
+	"private": true
+}
